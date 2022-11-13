@@ -1,0 +1,790 @@
+.mar {
+    margin: -8vw;
+    padding: 0;
+
+}
+
+body {
+    margin: 6%;
+    padding: 2%;
+
+
+}
+
+img.main {
+    width: 100%;
+    position: relative;
+}
+
+img.logo {
+    position: absolute;
+    top: 2%;
+    width: 10%;
+    left: 12%;
+}
+
+img.line {
+    width: 25vw;
+    position: absolute;
+    top: 64vw;
+    left: 38%;
+}
+
+.discription {
+    position: absolute;
+    top: 19vw;
+    color: aliceblue;
+    font-size: 4vw;
+    left: 13%;
+    font-family: sans-serif;
+}
+
+span.highlight {
+    color: yellow;
+    font-size: 5vw;
+}
+
+.main2 {
+    text-align: center;
+    padding: 10%;
+    margin: -8vw;
+}
+
+.recipies {
+    color: red;
+    font-size: 3vw;
+
+}
+
+p.try {
+    font-size: 2vw;
+}
+
+.buttons button {
+    border-radius: 3vw;
+    width: 10vw;
+    height: 4vw;
+    color: white;
+    background: #A80E0E;
+    border: white;
+    /* padding: 1.5vw; */
+    font-size: 1.5vw;
+}
+
+.buttons button:hover {
+    background: #E1A700;
+    font-size: 1.1vw;
+    transition: 0.1s;
+}
+
+.buttons {
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+
+#ic {
+    width: 100%;
+}
+
+.grid .card .ic img {
+    width: 15%;
+    margin-right: 1%;
+}
+
+.grid .card img {
+    width: 100%;
+
+}
+
+a.r {
+    text-decoration: none;
+}
+
+.cart {
+    border-radius: 2vw;
+    background: #E1A700;
+    border: white;
+    color: white;
+    font-size: 0.7vw;
+    /* padding: 1vw 1vw; */
+    
+    margin: 0vw;
+}
+
+.cart:hover {
+    box-shadow: 0px 4px 4px 0 rgb(117, 115, 115);
+    transition: 0.3s;
+}
+
+.grid .card {
+    box-shadow: 0 4px 8px 0 rgba(96, 96, 96, 0.2);
+    transition: 0.3s;
+    position: relative;
+}
+
+.grid .card:hover {
+    box-shadow: 0px 4px 4px 0 rgb(62, 62, 62);
+    transition: 0.3s;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3%;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.info .align img {
+    width: 1.6vw;
+    margin-top: 1%;
+}
+
+a .cart img {
+    width: 1vw;
+
+}
+
+.grid .price button {
+    color: #E1A700;
+}
+
+.grid .card .info {
+    margin-left: 7%;
+}
+
+.review {
+    display: flex;
+    gap: 4%;
+    margin-bottom: 1vw;
+}
+.review p{
+    font-size: 1.4vw;
+}
+
+.review a {
+    color: blue;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.final {
+    text-align: center;
+    margin-top: 4%;
+    color: rgb(8, 8, 7);
+    font-size: 15px;
+
+
+}
+
+.final h4 {
+    font-size: 2vw;
+}
+
+.final .l2 {
+    width: 10vw;
+    margin-top: 4vw;
+}
+
+.final .rights {
+    color: rgb(167, 165, 164);
+    font-size: 0.9vw;
+}
+
+.final .d1 {
+    color: rgb(167, 165, 164);
+    font-size: 1.5vw;
+}
+
+.final .p1 {
+    color: rgb(4, 4, 4);
+    font-size: 1.5vw;
+}
+
+.final {
+    width: 100%;
+}
+
+.back {
+    position: relative;
+    
+    
+}
+
+/* .price {
+    color: red;
+} */
+
+
+.cart .carticn {
+    width: 1vw;
+}
+p.itemnm {
+    font-size: 1.3vw;
+    margin: 1vw 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(54, 52, 52)
+}
+
+
+/* Second Page */
+
+
+
+
+
+
+.back {
+    filter: blur(8px);
+    /* -webkit-filter: blur(8px); */
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.rev {
+    text-align: left;
+    position: absolute;
+    background-color: white;
+    left: 22vw;
+    top: 7vw;
+    width: 55vw;
+    height: 38vw;
+    border-radius: 2vw;
+}
+
+.rev textarea {
+    margin-top: 1vw;
+    width: 30vw;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+
+}
+
+textarea.c {
+    width: 39.8vw;
+    font-size: 1.2vw;
+    color: #bdbbbb;
+}
+
+textarea.a {
+
+    width: 40vw;
+    font-size: 1.2vw;
+    color: #bdbbbb;
+
+}
+
+img.x {
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+    width: 1.3vw;
+    border-radius: 2vw;
+}
+
+img.x:hover {
+    box-shadow: 0px 4px 4px 0 rgb(117, 115, 115);
+    transition: 0.3s;
+}
+
+
+
+.th p {
+    color: black;
+    
+    font-family: 'Montserrat';
+    font-size: 1.5vw;
+}
+
+.rev h2 {
+    color: black;
+    font-family: Montserrat;
+    font-weight: lighter;
+    margin-top: 3vw;
+    font-size: 2.3vw;
+}
+
+.rate button {
+    background-color: rgb(250, 249, 249);
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+    font-size: 0.6vw;
+    padding: 0.2vw;
+    width: 10vw;
+    padding-left: 2.3vw;
+    padding-top: 0.4vw;
+    border-width: 1px;
+}
+
+.rate button:hover {
+    box-shadow: 0px 4px 4px 0 rgb(117, 115, 115);
+    transition: 0.3s;
+}
+
+.rev .tx {
+    margin-left: 3vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+
+img.li {
+    position: absolute;
+    top: 54.2vw;
+    width: 100%;
+    z-index: 2;
+}
+
+/* .info p {
+    font-size: 1.2vw;
+} */
+
+
+.align {
+    display: flex;
+    gap: 1%;
+    align-items: center;
+}
+
+.align img {
+    width: 1vw;
+    height: 10%;
+}
+
+
+
+.bt button {
+    background-color: #E1A700;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    font-size: 0.8vw;
+    width: 11vw;
+    margin-top: 2vw;
+    height: 2vw;
+}
+
+.bt button:hover {
+    box-shadow: 0px 4px 4px 0 rgb(117, 115, 115);
+    font-size: 0.75vw;
+
+    transition: 0.2s;
+}
+
+
+
+
+/* Third page */
+
+.third {
+    text-align: left;
+    position: absolute;
+    background-color: white;
+    left: 22vw;
+    top: 7vw;
+    width: 55vw;
+    height: 38vw;
+    border-radius: 2vw;
+}
+
+.third textarea {
+    border: none;
+    margin-top: 2vw;
+    width: 30vw;
+
+}
+
+.third p {
+    color: black;
+    margin-top: -1vw;
+    width: 90%;
+    font-size: 1.3vw;
+}
+
+.third h2 {
+    color: black;
+    margin-top: 7vw;
+    font-size: 2vw;
+    width: 100%;
+}
+
+.ones {
+    margin-top: 4vw;
+
+}
+
+.tx {
+    margin-left: 3vw;
+}
+
+.rate {
+    margin-top: 3vw;
+    display: flex;
+    gap: 2%;
+    width: 100%;
+    font-size: 2vw;
+}
+
+p.two {
+    margin-top: 2vw;
+}
+
+.c1 {
+    margin: 2%;
+}
+
+
+
+/* Last page */
+
+
+
+
+.recipi {
+    color: red;
+    font-size: 3vw;
+}
+
+.carttwo {
+    display: flex;
+    gap: 2%;
+    margin-bottom: 2%;
+}
+
+.carttwo img {
+    width: 32vw;
+    height: 21vw;
+    margin: 1vw;
+}
+
+h3 {
+    width: 30vw;
+    font-size: 2vw;
+}
+
+#cartbutton {
+    border-radius: 2vw;
+    background: #E1A700;
+    border: white;
+    color: white;
+    font-size: 1vw;
+    padding: 1vw 1vw;
+    margin-top: 6%;
+    width: 7.5vw;
+}
+
+.btl {
+    display: flex;
+    gap: 2%;
+}
+
+.btl img {
+    height: 2vw;
+    margin-top: 1vw;
+}
+
+.btl p {
+    margin-top: 1.3vw;
+    color: red;
+}
+
+.btl .d {
+    color: red;
+}
+
+.btmn {
+    display: flex;
+    height: 3vw;
+    gap: 3%;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+.btmn .d {
+    color: red;
+}
+
+.details p {
+    width: 44vw;
+    color: rgb(158, 152, 152);
+    font-size: 1.2vw;
+}
+
+.hmbt {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hmbt button {
+    margin-left: 1.8vw;
+    font-size: 8px;
+    border-radius: 25px;
+    height: 30px;
+    color: white;
+    background-color: #A80E0E;
+    border: none;
+
+}
+
+.hmbt button:hover {
+    box-shadow: 0px 4px 4px 0 rgb(117, 115, 115);
+    transition: 0.3s;
+
+}
+
+.hmbt .s span {
+    font-weight: bold;
+}
+
+#cartbutton span {
+    padding: 0 6%;
+}
+
+#plus-minus {
+    width: 8vw;
+    display: flex;
+
+    align-items: center;
+    border-radius: 20px;
+    gap: 55%;
+
+
+}
+
+#plus-minus {
+    font-size: 1vw;
+
+
+}
+p.lik {
+    font-size: 0.9vw;
+    color: #959191;
+}
+
+#plus-minus span {
+    background-color: rgb(73, 68, 68);
+    border-radius: 50%;
+    padding: 10%;
+}
+
+.butn {
+    width: 6vw;
+    background-color: #ebebeb;
+    border-radius: 10vw;
+    display: flex;
+    justify-content: space-between;
+    height: 2.5vw;
+    
+}
+
+button.minus {
+    width: 1.8vw;
+    /* padding: 0.35vw; */
+    border-top-left-radius: 1.1vw;
+    border-bottom-left-radius: 1.1vw;
+    border: 0.1vw solid black;
+    background-color: #aca9a9;
+    border-color: #ffffff00;
+    color: white;
+    font-size: 1.7vw;
+
+}
+
+button.plus {
+    padding: 0.35vw;
+    border-top-right-radius: 1.1vw;
+    border-bottom-right-radius: 1.1vw;
+    border: 0.1vw solid black;
+    background-color: #aca9a9;
+    border-color: #ffffff00;
+    color: white;
+    width: 1.8vw;
+    font-size: 1.4vw;
+
+}
+/* Button Hover */
+
+button.plus:hover {
+
+    box-shadow: 0px 0px 1px 0px rgb(117, 115, 115);
+    transition: 0.1s;
+    font-size: 1vw;
+}
+button.minus:hover {
+
+    box-shadow: 0px 0px 1px 0px rgb(117, 115, 115);
+    transition: 0.1s;
+    font-size: 1vw;
+}
+
+
+.price {
+    margin: 8px;
+    width: 15vw;
+    font-size: 1.4vw;
+    color:red;
+    margin-top: 0.7vw;
+}
+.ic {
+    width: 25vw;
+    display: flex;
+}
+
+span.count {
+    display: flex;
+    align-items: center;
+    font-size: 1.2vw;
+}
+p.likesc {
+    margin-top: 0.1vw;
+    /* margin-left: 2VW; */
+}
+img.lovplane {
+    float: left;
+    width: 1.2vw;
+    margin-top: 0.3vw;
+}
+.sa {
+    
+    float: left;
+    margin-left: 0.8vw;
+}
+.rev .itm h2 {
+    color: black;
+    font-family: Montserrat;
+    font-weight: lighter;
+    margin-top: 3vw;
+    font-size: 1.8vw;
+}
+
+@media screen and (max-width: 500px) {
+    .carttwo {
+        display: block;
+        margin-bottom: 2%;
+        width: 60%;
+    }
+
+    .carttwo img {
+        width: 100%;
+        height: 25vw;
+        margin: 0;
+        border-radius: 3vw;
+
+    }
+
+    h3 {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    .details {
+        text-align: center;
+    }
+
+    .details p {
+        width: 100%;
+        color: rgb(158, 152, 152);
+        font-size: 2.2vw;
+    }
+
+    .butn {
+        width: 6vw;
+        background-color: #ebebeb;
+        border-radius: 10vw;
+        display: flex;
+        justify-content: space-between;
+        height: 2.5vw;
+    }
+    
+
+    button.plus {
+        padding: 0.35vw;
+        border-top-right-radius: 1.1vw;
+        border-bottom-right-radius: 1.1vw;
+        border: 0.1vw solid black;
+        background-color: #aca9a9;
+        border-color: #ffffff00;
+        color: white;
+        width: 1.8vw;
+        font-size: 1.7vw;
+
+    }
+
+    button.minus {
+        padding: 0.35vw;
+        /* border-top-right-radius: 1.1vw;
+        border-bottom-right-radius: 1.1vw; */
+        border: 0.1vw solid black;
+        background-color: #aca9a9;
+        border-color: #ffffff00;
+        color: white;
+        width: 1.8vw;
+        font-size: 1.7vw;
+    }
+
+    #cartbutton {
+        width: 10.5vw;
+        height: 5vw;
+        font-size: 1.5vw;
+    }
+
+    .c1 {
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+    }
+
+    
+}
+@media screen and (max-width:500px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        margin: 1% 2% 6% 2%;
+    }
+
+    .info p {
+        font-size: 1.5vw;
+    }
+
+    .cart {
+        font-size: 1.4vw;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        margin: 5% 2% 6% 1%;
+    }
+
+    .grid .card .info {
+        margin-left: 6vw;
+    }
+
+    img#s {
+        width: 85%;
+        margin-left: 6.3vw;
+    }
+
+    .info p {
+        font-size: 1.5vw;
+    }
+
+    .cart {
+        font-size: 1.4vw;
+        width: 30vw;
+        border-radius: 5vw;
+        margin-bottom: 4vw;
+        margin-top: 1vw;
+    }
+}
